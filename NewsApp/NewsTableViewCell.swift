@@ -104,7 +104,6 @@ class NewsTableViewCell: UITableViewCell {
                     self?.newsImageView.image = UIImage(data: data)
                 }
             }.resume()
-        }
-        
+        } 
     }
 }
